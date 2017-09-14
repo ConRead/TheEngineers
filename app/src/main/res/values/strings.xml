@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">ConRead</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_sig_nup">Sign in</string>
+    <string name="username_text">Username</string>
+    <string name="password_text">Password</string>
+    <string name="login_text">LOG IN</string>
+    <string name="sign_up_text">SIGN UP</string>
+    <string name="forgot_password_text">Forgot Password?</string>
+    <string name="graph_text">Graph of Consumption</string>
+    <string name="about_us_text">About Us</string>
+    <string name="user_profile_text">Users Profile</string>
+    <string name="address_text">Address:</string>
+    <string name="contact_no_text">Contact No:</string>
+    <string name="name_text">Name:</string>
+    <string name="ast_text">*</string>
+    <string name="user_name2_text">Username:</string>
+    <string name="note_text">* Can be edited.</string>
+    <string name="pass_text">Password:</string>
+    <string name="edit_text">Edit</string>
+    <string name="new_pass_text">New Password:</string>
+    <string name="rewrite_pass_text">Re-type Password:</string>
+    <string name="last_name_text">Last Name:</string>
+    <string name="first_text">First Name:</string>
+    <string name="image_user"> </string>
+    <string name="cancel_text">Cancel</string>
+    <string name="reminder_text">Asteris(*) must be filled up.</string>
+    <string name="middle_text">Middle Name:</string>
+    <string name="upload_text">Upload Photo</string>
+    <string name="date_text">Date Captured:</string>
+    <string name="image_view">Image View</string>
+    <string name="ok_text">OK</string>
+    <string name="whole_name_text"> </string>
+    <string name="save_text">Save</string>
+    <string name="generate_date">Generated Date:</string>
+    <string name="blanks">________</string>
+    <string name="previous_data">Previous Data:</string>
+    <string name="read_data">Read Data:</string>
+    <string name="computation">Computation:</string>
+    <string name="minimum_rate">Minimum Rate:</string>
+    <string name="final_comptutaion">Final Computation:</string>
+    <string name="expeccted_budget">Expected Budget:</string>
+    <string name="expected_days">Expected Days:</string>
+    <string name="process">Process</string>
+    <string name="electricity">ELECTRICITY</string>
+    <string name="water">WATER</string>
+    <string name="no_ast"> </string>
+    <string name="due_dates"> Due dates:</string>
+    <string name="device_used">Device used</string>
+    <string name="consumption_device">Consumption/Devices</string>
+
+
+    <!-- Strings related to login -->
+
+
+</resources>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/login"
+    tools:context="com.example.faithanalie.conread.Sign_up">
+
+
+    <TextView
+        android:text="@string/reminder_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/reminder"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:hint="@string/ast_text"
+        android:layout_width="200sp"
+        android:inputType="textPersonName"
+        android:layout_height="25sp"
+        android:background="#ffffff"
+        android:textColor="#f17a0a"
+        android:id="@+id/addressText"
+        android:layout_alignTop="@+id/address"
+        android:layout_toEndOf="@+id/first_name" />
+
+    <EditText
+        android:hint="@string/ast_text"
+        android:layout_width="200sp"
+        android:inputType="textPersonName"
+        android:layout_height="25sp"
+        android:background="#ffffff"
+        android:textColor="#f17a0a"
+        android:id="@+id/usernameText"
+        android:layout_alignBottom="@+id/username"
+        android:layout_alignStart="@+id/addressText" />
+
+    <EditText
+        android:hint="@string/ast_text"
+        android:layout_width="200sp"
+        android:inputType="textPassword"
+        android:layout_height="25sp"
+        android:background="#ffffff"
+        android:textColor="#f17a0a"
+        android:id="@+id/passwordText"
+        android:layout_alignBottom="@+id/pass"
+        android:layout_alignEnd="@+id/middlenameText" />
+
+    <EditText
+        android:hint="@string/ast_text"
+        android:layout_width="140dp"
+        android:inputType="textPassword"
+        android:layout_height="25sp"
+        android:background="#ffffff"
+        android:textColor="#f17a0a"
+        android:id="@+id/newpasswordText"
+        android:layout_alignTop="@+id/new_pass"
+        android:layout_toEndOf="@+id/new_pass" />
+
+
+    <EditText
+        android:hint="@string/ast_text"
+        android:layout_width="200sp"
+        android:inputType="textPersonName"
+        android:layout_height="25sp"
+        android:background="#ffffff"
+        android:textColor="#f17a0a"
+        android:id="@+id/contactno.Text"
+        android:layout_alignTop="@+id/contact_no."
+        android:layout_toEndOf="@+id/contact_no." />
+
+    <Button
+        android:text="@string/sign_up_text"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:textColor="#ffffff"
+        android:id="@+id/signup"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginBottom="13dp"
+        android:layout_above="@+id/reminder"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:hint="@string/ast_text"
+        android:layout_width="200sp"
+        android:inputType="textPersonName"
+        android:layout_height="25sp"
+        android:background="#ffffff"
+        android:textColor="#f17a0a"
+        android:id="@+id/lastnameText"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/contact_no." />
+
+    <EditText
+        android:hint="@string/ast_text"
+        android:inputType="textPersonName"
+        android:layout_width="200sp"
+        android:layout_height="25sp"
+        android:background="#ffffff"
+        android:textColor="#f17a0a"
+        android:id="@+id/firstnameText"
+        android:layout_above="@+id/middle_name"
+        android:layout_toEndOf="@+id/first_name" />
+
+    <TextView
+        android:text="@string/last_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:id="@+id/last_name"
+        android:layout_above="@+id/first_name"
+        android:layout_alignStart="@+id/first_name" />
+
+    <EditText
+        android:hint="@string/ast_text"
+        android:inputType="textPersonName"
+        android:layout_width="180sp"
+        android:layout_height="25sp"
+        android:background="#ffffff"
+        android:textColor="#f17a0a"
+        android:id="@+id/middlenameText"
+        android:layout_alignBottom="@+id/middle_name"
+        android:layout_alignEnd="@+id/newpasswordText" />
+
+    <TextView
+        android:text="@string/user_name2_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:id="@+id/username"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/addressText"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/pass_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:id="@+id/pass"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/username"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/rewrite_pass_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:id="@+id/new_pass"
+        android:layout_below="@+id/passwordText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:text="@string/contact_no_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:id="@+id/contact_no."
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/newpasswordText"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/first_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:id="@+id/first_name"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/lastnameText"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/middle_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:id="@+id/middle_name"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/first_name"
+        android:layout_toStartOf="@+id/middlenameText" />
+
+    <TextView
+        android:text="@string/address_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:id="@+id/address"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/middle_name"
+        android:layout_alignStart="@+id/middle_name" />
+
+</RelativeLayout>

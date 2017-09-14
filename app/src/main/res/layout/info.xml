@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.faithanalie.conread.Tab_menu">
+
+    <TextView
+        android:text="@string/blanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/water_due_dateText"
+        android:layout_alignBaseline="@+id/electric_due_dateText"
+        android:layout_alignBottom="@+id/electric_due_dateText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="29dp" />
+
+    <TextView
+        android:text="@string/due_dates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#2a2a2a"
+        android:layout_alignBaseline="@+id/water_due_dateText"
+        android:layout_alignBottom="@+id/water_due_dateText"
+        android:layout_toStartOf="@+id/water_due_dateText" />
+
+    <TextView
+        android:text="@string/water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:id="@+id/water"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/water_due_dateText"
+        android:layout_marginEnd="34dp" />
+
+    <TextView
+        android:text="@string/blanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/electric_due_dateText"
+        android:layout_alignBaseline="@+id/due_date"
+        android:layout_alignBottom="@+id/due_date"
+        android:layout_toEndOf="@+id/due_date" />
+
+    <TextView
+        android:text="@string/electricity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:id="@+id/electricity"
+        android:layout_marginStart="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/due_dates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#2a2a2a"
+        android:layout_marginTop="52dp"
+        android:id="@+id/due_date"
+        android:layout_below="@+id/electricity"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/device_used"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/electric_due_dateText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="118dp"
+        android:id="@+id/button" />
+
+
+</RelativeLayout>

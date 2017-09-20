@@ -1,5 +1,6 @@
 package com.example.faithanalie.conread;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,15 +13,10 @@ public class Sign_up extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sign_up);
+    }
 
-        Button butt = (Button) findViewById(R.id.signup);
-        butt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Sign_up.this, Sign_in.class);
-                startActivity(intent);
-            }
-        });
-
+    public static Intent makeIntent(Context context){
+        return new Intent(context, Sign_up.class);
     }
 }
+

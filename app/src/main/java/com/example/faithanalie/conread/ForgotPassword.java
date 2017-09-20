@@ -1,5 +1,6 @@
 package com.example.faithanalie.conread;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -13,13 +14,26 @@ public class ForgotPassword extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.forgot_password);
 
-        Button butt =  (Button) findViewById(R.id.cancel);
-        butt.setOnClickListener(new View.OnClickListener() {
+        setupCancelButton();
+    }
+
+    private void setupCancelButton(){
+        Button btn = (Button) findViewById(R.id.cancel);
+        btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(ForgotPassword.this, Sign_in.class);
-                startActivity(intent);
+                //I wanna do is kung mupislit sha, mangutana kung cancel sha? Second: option kay lahos sya sa Sign in Page
+                //Destination activity           //Current
+                //Intent fpass_intent = Sign_in.makeIntent(ForgotPassword.this);
+                //startActivity(fpass_intent);
+                finish();
             }
         });
+
+    }
+
+    public static Intent makeIntent(Context context) {
+        return new Intent(context, ForgotPassword.class);
+
     }
 }

@@ -74,7 +74,7 @@
         android:layout_below="@+id/electric_due_dateText"
         android:layout_alignParentStart="true"
         android:layout_marginTop="118dp"
-        android:id="@+id/button" />
+        android:id="@+id/deviceButton" />
 
 
 </RelativeLayout>

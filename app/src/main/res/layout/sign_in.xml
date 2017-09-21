@@ -49,26 +49,13 @@
         android:layout_marginBottom="20dp" />
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/logofinal"
         android:contentDescription="@string/image_view"
-        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/gwapako"
+        android:id="@+id/imageView2"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
-
-    <EditText
-        android:layout_width="230dp"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:background="#ffffff"
-        android:paddingBottom="20dp"
-        android:hint="@string/password_text"
-        android:ems="10"
-        android:id="@+id/passwordText"
-        android:layout_marginTop="13dp"
-        android:layout_below="@+id/usernameText"
-        android:layout_alignStart="@+id/usernameText" />
 
     <EditText
         android:layout_width="230dp"
@@ -76,11 +63,43 @@
         android:inputType="textPersonName"
         android:background="#ffffff"
         android:paddingBottom="20dp"
-        android:hint="@string/username_text"
         android:ems="10"
-        android:id="@+id/usernameText"
+        android:id="@+id/userName"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignStart="@+id/login" />
+
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:background="#ffffff"
+        android:paddingBottom="20dp"
+        android:ems="10"
+        android:id="@+id/password"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/userName"
+        android:layout_alignStart="@+id/userName" />
+
+    <TextView
+        android:text="@string/pass_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#2a2a2a"
+        android:id="@+id/pass"
+        android:layout_alignBottom="@+id/password"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:text="@string/user_name2_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#2a2a2a"
+        android:id="@+id/username"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
 
 
 </RelativeLayout>

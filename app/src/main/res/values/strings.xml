@@ -25,7 +25,7 @@
     <string name="first_text">First Name:</string>
     <string name="image_user"> </string>
     <string name="cancel_text">Cancel</string>
-    <string name="reminder_text">Asteris(*) must be filled up.</string>
+    <string name="reminder_text">Asterisk(*) must be filled up.</string>
     <string name="middle_text">Middle Name:</string>
     <string name="upload_text">Upload Photo</string>
     <string name="date_text">Date Captured:</string>
@@ -49,8 +49,49 @@
     <string name="due_dates"> Due dates:</string>
     <string name="device_used">Device used</string>
     <string name="consumption_device">Consumption/Devices</string>
-
-
+    <string name="email">Email:</string>
+    <string name="electric_fan">Electric Fan:</string>
+    <string name="television">Television:</string>
+    <string name="radio">Radio:</string>
+    <string name="flat_iron">Flat Iron:</string>
+    <string name="rice_cooker">Rice Cooker:</string>
+    <string name="refrigirator">Refrigirator:</string>
+    <string name="laptop">Laptop:</string>
+    <string name="cellphone">Cellphone:</string>
+    <string name="dvd">DVD:</string>
+    <string-array name="spinner1_item">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>Aug</item>
+        <item>Sept</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="spinner2_item">
+        <item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item>
+        <item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>21</item><item>22</item><item>23</item><item>24</item>
+        <item>25</item><item>26</item><item>26</item><item>28</item><item>29</item><item>30</item><item>31</item>
+    </string-array>
+    <string-array name="spinner3_item">
+        <item>1990</item>
+        <item>1991</item>
+        <item>1992</item>
+        <item>1993</item>
+        <item>1994</item>
+        <item>1995</item>
+        <item>1996</item>
+        <item>1997</item>
+        <item>1998</item>
+        <item>1999</item>
+        <item>2000</item>
+        <item>20001</item>
+    </string-array>
     <!-- Strings related to login -->
 
 

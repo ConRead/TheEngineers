@@ -9,6 +9,7 @@
     tools:context="com.example.faithanalie.conread.Tab_menu"
     android:background="@android:color/background_light">
 
+
     <TextView
         android:text="@string/about_us_text"
         android:layout_width="wrap_content"

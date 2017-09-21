@@ -32,4 +32,172 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="14dp" />
 
+    <TextView
+        android:text="@string/electric_fan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#2a2a2a"
+        android:layout_below="@+id/devices"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp"
+        android:id="@+id/electric_fan" />
+
+    <TextView
+        android:text="@string/television"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#2a2a2a"
+        android:id="@+id/tevision"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/electric_fan"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#2a2a2a"
+        android:id="@+id/radio"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/tevision"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/flat_iron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#2a2a2a"
+        android:id="@+id/flat_iron"
+        android:layout_below="@+id/radio"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:text="@string/refrigirator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#2a2a2a"
+        android:id="@+id/refrigirator"
+        android:layout_below="@+id/rice_cooker"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:text="@string/rice_cooker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#2a2a2a"
+        android:id="@+id/rice_cooker"
+        android:layout_below="@+id/flat_iron"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:text="@string/cellphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#2a2a2a"
+        android:id="@+id/cellphone"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/laptop"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/dvd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#2a2a2a"
+        android:id="@+id/dvd"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/cellphone"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/laptop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#2a2a2a"
+        android:id="@+id/laptop"
+        android:layout_below="@+id/refrigirator"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+
+    <TextView
+        android:text="@string/blanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/televisionText"
+        android:layout_alignBaseline="@+id/tevision"
+        android:layout_alignBottom="@+id/tevision"
+        android:layout_alignStart="@+id/electric_fanText" />
+
+    <TextView
+        android:text="@string/blanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/laptopText"
+        android:layout_above="@+id/cellphone"
+        android:layout_alignStart="@+id/refrigiratorText" />
+
+    <TextView
+        android:text="@string/blanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/flat_ironText"
+        android:layout_above="@+id/rice_cooker"
+        android:layout_toEndOf="@+id/rice_cooker"
+        android:layout_marginStart="24dp" />
+
+    <TextView
+        android:text="@string/blanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioText"
+        android:layout_above="@+id/flat_iron"
+        android:layout_alignStart="@+id/televisionText" />
+
+    <TextView
+        android:text="@string/blanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/electric_fanText"
+        android:layout_alignBaseline="@+id/electric_fan"
+        android:layout_alignBottom="@+id/electric_fan"
+        android:layout_alignStart="@+id/flat_ironText" />
+
+    <TextView
+        android:text="@string/blanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dvdText"
+        android:layout_alignBaseline="@+id/dvd"
+        android:layout_alignBottom="@+id/dvd"
+        android:layout_alignStart="@+id/flat_ironText" />
+
+    <TextView
+        android:text="@string/blanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cellphoneText"
+        android:layout_alignBaseline="@+id/cellphone"
+        android:layout_alignBottom="@+id/cellphone"
+        android:layout_alignStart="@+id/dvdText" />
+
+    <TextView
+        android:text="@string/blanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rice_cookerText"
+        android:layout_alignBaseline="@+id/rice_cooker"
+        android:layout_alignBottom="@+id/rice_cooker"
+        android:layout_alignStart="@+id/flat_ironText" />
+
+    <TextView
+        android:text="@string/blanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/refrigiratorText"
+        android:layout_alignBaseline="@+id/refrigirator"
+        android:layout_alignBottom="@+id/refrigirator"
+        android:layout_alignStart="@+id/rice_cookerText" />
 </RelativeLayout>

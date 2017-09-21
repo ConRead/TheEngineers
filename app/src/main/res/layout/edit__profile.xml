@@ -30,48 +30,6 @@ tools:context="com.example.faithanalie.conread.Edit_Profile">
     android:layout_alignParentStart="true"
     android:layout_marginTop="16dp" />
 
-<EditText
-    android:layout_width="200dp"
-    android:layout_height="wrap_content"
-    android:inputType="textPersonName"
-    android:hint=""
-    android:background="@color/colorAccent"
-    android:ems="10"
-    android:id="@+id/nameText"
-    android:layout_alignBaseline="@+id/name"
-    android:layout_alignBottom="@+id/name"
-    android:layout_alignStart="@+id/imageView3" />
-
-
-<TextView
-    android:text="@string/contact_no_text"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:textColor="#000"
-    android:id="@+id/contact_no."
-    android:layout_marginTop="12dp"
-    android:layout_below="@+id/address"
-    android:layout_alignParentStart="true" />
-
-<TextView
-    android:text="@string/user_name2_text"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:textColor="#000"
-    android:id="@+id/username"
-    android:layout_below="@+id/contact_no."
-    android:layout_alignParentStart="true"
-    android:layout_marginTop="11dp" />
-
-<TextView
-    android:text="@string/pass_text"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:textColor="#000"
-    android:id="@+id/pass"
-    android:layout_below="@+id/username"
-    android:layout_alignEnd="@+id/username"
-    android:layout_marginTop="11dp" />
 
     <TextView
     android:text="@string/address_text"
@@ -117,39 +75,8 @@ tools:context="com.example.faithanalie.conread.Edit_Profile">
     android:layout_alignBottom="@+id/username"
     android:layout_alignStart="@+id/contactText" />
 
-<EditText
-    android:layout_width="200dp"
-    android:layout_height="wrap_content"
-    android:inputType="textPassword"
-    android:hint="@string/ast_text"
-    android:background="@color/colorAccent"
-    android:ems="10"
-    android:id="@+id/passwordText"
-    android:layout_alignBaseline="@+id/pass"
-    android:layout_alignBottom="@+id/pass"
-    android:layout_alignStart="@+id/usernameText" />
-
-    <TextView
-    android:text="@string/new_pass_text"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:textColor="#000"
-    android:id="@+id/new_pass"
-        android:layout_centerVertical="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="@string/rewrite_pass_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#000"
-        android:id="@+id/rewrite_pass"
-        android:layout_below="@+id/newpasswordText"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="13dp" />
-
     <EditText
-        android:layout_width="160dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:hint="@string/ast_text"
@@ -160,7 +87,7 @@ tools:context="com.example.faithanalie.conread.Edit_Profile">
         android:layout_toEndOf="@+id/rewrite_pass" />
 
     <EditText
-        android:layout_width="180dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:hint="@string/ast_text"
@@ -168,18 +95,19 @@ tools:context="com.example.faithanalie.conread.Edit_Profile">
         android:ems="10"
         android:id="@+id/newpasswordText"
         android:layout_alignBottom="@+id/new_pass"
-        android:layout_toEndOf="@+id/new_pass" />
+        android:layout_alignStart="@+id/rewritepassText" />
 
-    <Button
-        android:text="@string/cancel_text"
-        android:layout_width="80dp"
-        android:layout_height="35dp"
-        android:textColor="#000"
-        android:background="@android:color/darker_gray"
-        android:id="@+id/cancel"
-        android:layout_alignBottom="@+id/save"
-        android:layout_toEndOf="@+id/passwordText"
-        android:layout_alignTop="@+id/save" />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=""
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:id="@+id/nameText"
+        android:layout_alignBaseline="@+id/name"
+        android:layout_alignBottom="@+id/name"
+        android:layout_alignStart="@+id/passwordText" />
 
     <Button
     android:text="@string/save_text"
@@ -189,7 +117,78 @@ tools:context="com.example.faithanalie.conread.Edit_Profile">
     android:id="@+id/save"
         android:layout_marginBottom="63dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/rewritepassText"
-        android:layout_marginEnd="15dp" />
+        android:layout_alignEnd="@+id/imageView3" />
+
+    <Button
+        android:text="@string/cancel_text"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:textColor="#000"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/cancel"
+        android:layout_alignTop="@+id/save"
+        android:layout_toEndOf="@+id/save"
+        android:layout_marginStart="11dp" />
+
+    <TextView
+    android:text="@string/contact_no_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#000"
+    android:id="@+id/contact_no."
+    android:layout_marginTop="17dp"
+        android:layout_below="@+id/address"
+        android:layout_alignStart="@+id/pass" />
+
+    <TextView
+    android:text="@string/user_name2_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#000"
+    android:id="@+id/username"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/contact_no."
+        android:layout_alignParentStart="true" />
+
+    <TextView
+    android:text="@string/new_pass_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#000"
+    android:id="@+id/new_pass"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/passwordText"
+        android:layout_alignStart="@+id/pass" />
+
+    <TextView
+        android:text="@string/rewrite_pass_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:id="@+id/rewrite_pass"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/newpasswordText"
+        android:layout_alignStart="@+id/new_pass" />
+
+    <TextView
+    android:text="@string/pass_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#000"
+    android:id="@+id/pass"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/usernameText"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/ast_text"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:id="@+id/passwordText"
+        android:layout_alignBottom="@+id/pass"
+        android:layout_alignStart="@+id/newpasswordText" />
 
 </RelativeLayout>

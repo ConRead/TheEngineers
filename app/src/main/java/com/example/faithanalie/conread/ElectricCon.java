@@ -16,7 +16,7 @@ public class ElectricCon extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-      View rootView= inflater.inflate(R.layout.electriccon, container, false);
+      View rootView= inflater.inflate(R.layout.electricconsumption, container, false);
 
         spinneruse=(Spinner) rootView.findViewById(R.id.month_spinner);
        spinneruse.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {

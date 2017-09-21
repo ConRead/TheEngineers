@@ -1,5 +1,7 @@
 package com.example.faithanalie.conread;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -102,13 +104,13 @@ public class Tab_menu extends AppCompatActivity {
                   Profile tab2 = new Profile();
                     return tab2;
                 case 2:
-                    ElectricCon tab3 = new ElectricCon();
+                    ElectricConsumption tab3 = new ElectricConsumption();
                     return tab3;
                 case 3:
-                    WaterCon tab4 = new WaterCon();
+                    WaterConsumption tab4 = new WaterConsumption();
                     return tab4;
                 case 4:
-                    Info tab5 = new Info();
+                    Information tab5 = new Information();
                     return tab5;
                 case 5:
                     Log_out tab6 = new Log_out();
@@ -135,17 +137,20 @@ public class Tab_menu extends AppCompatActivity {
 
                     return "Profile";
                 case 2:
-                    return "Electric";
+                    return "ElectricConsumption";
                 case 3:
-                    return "Water";
+                    return "WaterConsumption";
                 case 4:
-                    return "Info";
+                    return "Information";
                 case 5:
-                    return "Log out";
+                    return "Log_out";
 
 
             }
             return null;
         }
+    }
+    public static Intent makeIntent(Context context){
+        return new Intent(context, Tab_menu.class);
     }
 }

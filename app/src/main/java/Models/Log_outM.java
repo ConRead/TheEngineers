@@ -5,4 +5,5 @@ package Models;
  */
 
 public class Log_outM {
+
 }
